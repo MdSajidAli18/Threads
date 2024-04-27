@@ -1,7 +1,7 @@
 "use server"
 
 import { connectToDB } from "../mongoose";
-import { User } from "../models/user.model";
+import  User  from "../models/user.model";
 import { revalidatePath } from "next/cache";
 
 

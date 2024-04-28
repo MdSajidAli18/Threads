@@ -1,4 +1,3 @@
-
 import mongoose from "mongoose";
 
 const communitySchema = new mongoose.Schema({

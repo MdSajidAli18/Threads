@@ -1,7 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   experimental: {
-    serverActions: true,
+    serverActions: {
+      "allowedOrigins": []
+    },
     serverComponentsExternalPackages: ["mongoose"],
   },
   eslint: {
@@ -31,4 +33,5 @@ const nextConfig = {
   },
 };
 
-module.exports = nextConfig;
+// export default nextConfig;
+module.exports = nextConfig
